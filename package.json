@@ -6,6 +6,9 @@
   "type": "module",
   "scripts": {
     "research": "node src/research.js",
+    "research:dialogs": "node src/research-dialogs-messages-likes.js",
+    "research:advanced": "node src/research-advanced.js",
+    "research:cookies": "node src/research-with-cookies.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["mamba", "auth", "playwright"],

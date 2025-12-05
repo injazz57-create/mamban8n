@@ -4,7 +4,13 @@ node_modules/
 dist/
 build/
 *.html
+*.json
+!package.json
+!package-lock.json
+!src/config/*.ts
 .env
 .env.local
 .cache/
 .playwright/
+/tmp/
+research-*.txt
