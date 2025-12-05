@@ -1,0 +1,17 @@
+{
+  "name": "mamba-auth-research",
+  "version": "1.0.0",
+  "description": "Research Mamba authentication flow with Playwright",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "research": "node src/research.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mamba", "auth", "playwright"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
